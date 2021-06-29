@@ -1,0 +1,178 @@
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+  
+}
+
+.container-fluid {
+    padding: 2% 15%;
+}
+
+.he {  
+    font-family: "Montserrat";  
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+body {
+    
+    font-family:monospace;
+
+}
+
+.navbar {
+
+    padding-bottom: 0 0 0 4.5rem;
+
+}
+.navbar-brand{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: larger;
+    font-family: "Montserrat-Light";
+}
+
+.dom {
+    margin: 5% 3% 5% 0;
+} 
+
+.prof {
+    width: 28%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#features {
+    padding:7% 14%;
+    position: relative;
+     background-color: white;
+} 
+
+h3{
+font-weight: bolder;
+
+}
+.feat-sec {
+    text-align: center;
+    padding:5%;
+}
+p{
+    color: gray;
+    
+}
+
+.icon {
+    color: #ff8170;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials{
+    background-color:  #ff8170;
+    text-align: center;
+  
+}
+.carousel-item{
+    padding:7% 14%;
+}
+ h2 {
+    font-size: 3.5rem;
+    font-family: "Montserrat";  
+    color: white;
+    font-weight: 900;
+    width: 60%;
+    margin:0 auto;
+    line-height: 2;
+    letter-spacing: 2px;
+ }
+
+ .testimonial-image{
+     width: 11%;
+     border-radius: 100%;
+ }
+
+ #press {
+    background-color:  #ff8170;
+    text-align: center;
+    padding-bottom: 3%;
+ 
+ }
+ .pop {
+     width: 15%;
+    margin: 20px 20px 50px;
+  
+ }
+
+ #pricing {
+     padding:100px;
+ }
+.het {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.meta {
+    font-size: 25px;
+    font-weight: 450;
+    text-align: center;
+}
+.we {
+    color: black;
+    font-size: 44px;
+    font: weight 500px;
+}
+.noo {
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.bl {
+    text-align: center;
+    
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 4% 13%;
+    color: white;
+
+}
+.op{
+    font-size: 50px;
+}
+
+#footer{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.icos {
+    font-size: 45px;
+    justify-content: space-around;
+    color:black;
+    padding: 3% 20px;
+
+}
+
+.icos:hover {
+   color: #ff4c68; 
+}
+
+@media (max-width:1028px) {
+    .prof {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
